@@ -64,7 +64,7 @@ Bu proje, öğrencilerin staj başvurularını düzenli bir şekilde takip etmel
 
 ## Demo Video
 
-[Demo Video - Staj Başvuru Takip Sistemi](https://youtu.be/your-demo-video-link)
+[Demo Video - Staj Başvuru Takip Sistemi](https://youtu.be/i5z-z704ijk)
 
 ## Ekran Görüntüleri
 
