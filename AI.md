@@ -87,32 +87,6 @@ function validateLogin() {
 }
 ```
 
----
-
-### Soru 5: <br>
-
-Başvuru durumlarını renkli göstermek istiyorum.
-
-### **Cevap :** <br>
-Bootstrap badge class'larını dinamik olarak atayabilirsiniz:
-
-```php
-<span class="badge bg-<?= 
-    $app['status'] == 'Kabul' ? 'success' : 
-    ($app['status'] == 'Red' ? 'danger' : 
-    ($app['status'] == 'Görüşme' ? 'warning' : 'secondary')) 
-?>">
-    <?= $app['status'] ?>
-</span>
-```
-
-### Renk Karşılıkları:
-
-- **Kabul:** yeşil (`success`)
-- **Red:** kırmızı (`danger`)
-- **Görüşme:** sarı (`warning`)
-- **Başvuruldu:** gri (`secondary`)
-
 <br>——————————————————————————————————————————————————————————<br>
 
 **Diğer sorular :**
